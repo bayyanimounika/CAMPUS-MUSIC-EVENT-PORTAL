@@ -1,0 +1,16 @@
+{
+  "name": "campus-music-portal-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API for Campus Music Portal",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  }
+}
